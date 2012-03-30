@@ -1,0 +1,22 @@
+<div class="form" id="uploadForm"> 
+<form enctype="multipart/form-data" action="uploadScript.php" method="POST">
+									
+                                     
+                     
+									<input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+                                    	<div id="uploadFormHead">Upload Audio &amp; Video</div>
+                                        <div id="fileUpContainer">
+										
+                                        </div>
+										<div id="inputUpload"> <input type="submit" value="Upload!" />
+                                        </div>
+					</form>
+</div> <!-- closes uploadForm div -->
+
+<form action="upload_file.php" method="post"
+enctype="multipart/form-data">
+<label for="file">Filename:</label>
+<input type="file" name="file" id="file" /> 
+<br />
+<input type="submit" name="submit" value="Submit" />
+</form>
