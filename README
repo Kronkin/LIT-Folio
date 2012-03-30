@@ -1,0 +1,12 @@
+This is my first time using GitHub and I am still finding my feet.
+
+LIT Folio is a team project by myself and two classmates at LIT Clonmel.
+
+It is a portfolio website that students can host their work on. This would include, images, audio and video.
+
+Primarily we are constructing a working prototype that will be able to function as a live site that can fulfil our
+project proposal.
+
+We are limited by certain elements such as hosting. This limits our ability to stream video and host large files.
+To accomodate the hosting of video we are using Vimeo's API to connect the users account to our site and we just 
+embed the video and thumbnails into our site.
